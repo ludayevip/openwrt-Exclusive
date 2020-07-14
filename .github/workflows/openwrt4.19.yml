@@ -18,9 +18,9 @@ on:
 #    paths:
 #      - '4.config'
   schedule:
-    - cron: 0 18 */3 * *
-#  watch:
-#    types: started
+    - cron: 0 04 * * *
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
